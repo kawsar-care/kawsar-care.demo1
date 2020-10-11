@@ -2,7 +2,7 @@
   font-family: nolua;
   src: url("../fonts/Li Shobuj Nolua Unicode.ttf"); }
 
-body h2 {
+body h2, body h4 {
   font-family: nolua; }
 
 .navbar {
@@ -38,13 +38,41 @@ body h2 {
 .slick-prev:before, .slick-next:before {
   color: #000; }
 
+@media (max-width: 1900px) {
+  .carousel-caption {
+    margin-bottom: 100px; } }
+
+@media (max-width: 992px) {
+  .carousel-caption {
+    margin-bottom: 70px; }
+    .carousel-caption h2 {
+      font-size: 36px; } }
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    margin-bottom: 70px; }
+    .carousel-caption h2 {
+      font-size: 36px; } }
+
+@media (max-width: 576px) {
+  .carousel-caption {
+    margin-bottom: 70px; }
+    .carousel-caption h2 {
+      font-size: 36px; } }
+
+@media (max-width: 480px) {
+  .carousel-caption {
+    margin-bottom: 10px; }
+    .carousel-caption h2 {
+      font-size: 34px; } }
+
 @media (max-width: 349px) {
   .navbar .cap {
     font-size: 18px; }
   .navbar .cap-img {
     width: 30px; }
   .carousel-caption h2 {
-    font-size: 12px; }
+    font-size: 25px; }
   .carousel-item {
     height: 500px; }
   .navbar .nav-link {
@@ -53,8 +81,19 @@ body h2 {
     padding-left: 1em !important;
     padding-right: 1em !important; } }
 
-@media (max-width: 480px) {
+@media (max-width: 281px) {
+  .navbar .cap {
+    font-size: 18px; }
+  .navbar .cap-img {
+    width: 30px; }
   .carousel-caption {
-    margin-bottom: 10px; }
+    margin-bottom: -5px; }
     .carousel-caption h2 {
-      font-size: 34px; } }
+      font-size: 20px; }
+  .carousel-item {
+    height: 500px; }
+  .navbar .nav-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important; } }
